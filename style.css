@@ -1,0 +1,248 @@
+/*
+
+Theme Name: RoboJackets
+
+Theme URI: http://www.robojackets.org/
+
+Description: A theme for the GT RoboJackets website for the 2009-2010 school year.
+
+Version: 0.1
+
+Author: D Harden
+
+Author URI: about:blank
+
+*/
+
+
+@import url(tripoli.base.css); 
+@import url(plugins/tripoli.visual.css); 
+@import url(plugins/tripoli.type.css); 
+@import url(menuh.css); 
+
+body {
+	text-align: center;
+	background: url(backgroundrobot.jpg) no-repeat top center;
+	}
+
+a {
+	text-decoration: none;
+	}
+
+
+#container {
+	width: 980px;
+	margin: auto;
+	text-align: left;
+	clear: both;
+	}
+
+#banner {
+	width: 809px;
+	height: 148px;
+	background: url(banner.png) no-repeat top left;
+	margin: 0 auto;
+	padding: 0;
+	text-indent: -10000px;
+	}
+
+#buzz {
+	width: 79px;
+	height: 120px;
+	background: url(buzz.gif);
+	margin:
+	}
+
+#nav {
+	width: 100%;
+	height: 24px;
+	background: url(bar.gif) repeat-x;
+	float: left;
+	margin: 0 auto;
+	}
+
+#questions {
+	width: 250px;
+	float: left;
+	text-indent: -10000px;
+	}
+
+#who {
+	width: 250px;
+	height: 190px;
+	background: url(who.png) no-repeat;
+	float: left;
+	margin: 0 0 0 0;
+	text-indent: -10000px;
+	clear: both;
+	}
+
+#how {
+	width: 227px;
+	height: 142px;
+	background: url(how.png) no-repeat;
+	float: left;
+	text-indent: -10000px;
+	margin: 0;
+	clear: both;
+	}
+
+#featured {
+	width: 980px;
+	height: 400px;
+	margin: 0;
+	float: left;
+	clear: both;
+	padding: 0;
+	}
+
+#featured img {
+	float: left;
+	width: 940px;
+	height: 400px;
+	margin: 2px 0 2px 20px;
+	padding: 0;
+	border: 1px solid #ccc;
+	}
+
+#featuredshadow {
+	float: left;
+	width: 414px;
+	height: 278px;
+	}
+
+#featuretext  {
+	width: 316px;
+	height: 159px;
+	float: right;
+	background: url(gold-bg.png);
+	margin: 145px 0 0 120px;
+	text-align: center;
+	font-weight: bold;
+	}
+
+#featuretext  h2 {
+	font-size: 1.5em;
+	color: #006;
+	padding: 0 0 0 15px;
+	}
+
+#featuretext  p {
+	padding: 0 5px 0 25px;
+	}
+
+#money {
+	width: 980px;
+	float: left;
+	clear: both;
+	margin: 0 0 20px 0;
+	background: #fff;
+	padding: 10px 0 0 0;
+	}
+
+.storycontent img {
+	margin: 4px;
+	border: solid 1px #ccc;
+	}
+
+#leftbar {
+	width: 230px;
+	float: left;
+	}
+
+#leftbar img {
+	margin: 5px 20px;
+	border: 1px solid #666;
+	width: 150px;
+	}
+
+#posts {
+	width: 540px;
+	float: left;
+	padding: 0 10px;
+	margin: 0 0 0 20px;
+	}
+
+.content #money h2 {
+	margin: 0.235em 0 0 0.535em;
+	}
+
+.content #money h3 {
+	font-size: 1em;
+	margin-top: 0;
+	}
+
+#sidebar {
+	width: 170px;
+	float: right;
+	text-align: center;
+	}
+
+#sidebar p {
+	margin: 0;
+	}
+	
+#footer {
+	width: 980px;
+	background: #ccc;
+	color: #666;
+	clear: both;
+	}
+
+.icon {
+	float: left;
+	width: 48px;
+	margin: 0 10px 0 0;
+	}
+
+.content #sidebar h2 {
+	font-size: 1.1em;
+	}
+
+#pics {
+	width: 150px;
+	margin: 0 0 5px 10px;
+	float: left;
+	clear: both;
+	border: 1px solid #ccc;
+	}
+
+#posts p {
+	clear: both;
+	}
+
+#posts p.date {
+	clear: none;
+	}
+
+.rss {
+	margin: 0 0 0 35px;
+	}
+
+.youtube {
+	margin: 0 0 0 10px;
+	}
+
+.facebook {
+	margin: 0 0 0 35px;
+	}
+
+.twitter {
+	margin: 0 0 0 10px;
+	}
+
+#events {
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+#upcoming-events h2 {
+	font-weight: normal;
+	font-size: 10pt;
+	list-style: none;
+}
+
+#sidebar #archive ul {
+	text-align: left;
+	float: left;
+	}
